@@ -32,6 +32,9 @@ ACCEPT_LANGUAGE_HEADER = "ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7"
 # Юзер-агент для эмуляции открытия страницы капчи в мобильном виде приложения
 ANDROID_WEBVIEW_USERAGENT = "Mozilla/5.0 (Linux; Android 13; Pixel 7 Build/TQ3A.230901.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/118.0.0.0 Mobile Safari/537.36"
 
+# Юзер-агент для эмуляции вебвью iOS-приложения при решении капчи
+IOS_WEBVIEW_USERAGENT = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
+
 # Используются в мобильном приложении для авторизации
 ANDROID_CLIENT_ID = (
     "HIOMIAS39CA9DICTA7JIO64LQKQJF5AGIK74G9ITJKLNEDAOH5FHS5G1JI7FOEGD"
